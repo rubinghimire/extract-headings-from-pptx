@@ -33,7 +33,7 @@ output_file = '..\\files\\extracted_headings.txt'
 # Write the extracted headings to a text file with a new line after each heading
 with open(output_file, 'w', encoding='utf-8') as file:
     for i, heading in enumerate(headings, start=1):
-        file.write(f"Heading {i}: {heading}\n\n")  # Add a new line after each heading
+        file.write(f"{heading}\n\n")  # Add a new line after each heading
 
 # Print a message indicating where the headings have been saved
 print(f"Extracted slide headings saved to '{output_file}'")
