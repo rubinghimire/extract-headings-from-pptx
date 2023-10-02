@@ -21,13 +21,13 @@ def extract_slide_headings(pptx_file_path):
     return headings
 
 
-# Replace 'your_presentation.pptx' with the path to your PowerPoint file
+# Replace 'your_presentation.pptx' with the name of your PowerPoint file
 pptx_file_path = '..\\files\\your_presentation.pptx'
 
 # Extract slide headings from the PowerPoint file
 headings = extract_slide_headings(pptx_file_path)
 
-# Define the output file path
+# Define the output file name
 output_file = '..\\files\\extracted_headings.txt'
 
 # Write the extracted headings to a text file with a new line after each heading
